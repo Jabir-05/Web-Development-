@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        div{
+            border: solid red ;
+            width: 300px;
+            height: 300px;
+            margin: 25px ;
+            padding: 25px;
+            /* display: inline; */
+        }
+         *{
+            margin: 0px;
+            padding:0px;
+        
+         }
+         .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 100px;
+         }
+         span{
+            border: solid red 2px;
+            width: 200px;  
+            /* //not Aplicable in inline (width and hight both ) */
+            height: 200px; 
+             margin: 5px;  
+             /* // Custom margin is not aplicable */
+            padding: 15px;
+           display: inline-block;
+         }
+    </style>
+
+<!-- difference b/w block and inline 
+ first about of block element :- new line ,
+ width el->er, Apply custom width and hight 
+ , margin and padding in all area's ,
+ 
+ 
+ About inline Element :- same line , width is constant ,
+ we can not apply custom width and hight ,
+ margin can only apply in horizontaly -->
+
+</head>
+<body>
+<!--     
+    <div>
+        Welcome  Jabir
+    </div>
+
+    <div>
+        Welcome Jabir  2.0
+    </div> -->
+    <!-- <div class="box">
+         Welcome to jabir;s code. 
+    </div>  -->
+    <span>
+        This is Jabir Imteyaz
+    </span>
+    <span>
+        This is Jabir Imteyaz 2.0
+    </span> 
+</body>
+</html>
