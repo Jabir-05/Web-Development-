@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        img{
+            margin: 10px;
+        }
+        /* .image2{ */
+       /* position: relative;
+       top: 100px;
+       left: 100px;
+       left: 200px; */
+       /* position: absolute; */
+       /* absolute:- relative to iys closet position ancentor
+       ,not maintaining the gap 
+     top: 100px; */
+        /* } */
+        
+        .contrainer{
+            position: relative;
+            height: 8000px;
+            background-color: palevioletred;
+        }
+        .image4{
+            position: fixed;
+        }
+       .image3{
+        position: sticky;
+        top: 300px;
+       }
+        .Box{
+            background-color: red;
+            height: 500px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="WhatsApp Image 2024-09-18 at 19.09.18_142a0412.jpg"  alt="Poster 1 " width="300px" height="300px" class="image 1">
+        
+        <img src="Screenshot 2024-09-21 152819.png"  alt="Poster 2 " width="300px" height="300px" class="image2">
+
+        <img src="download.jpeg"  alt="Poster 3 " width="300px" height="300px" class="image3">
+
+        <img src="WhatsApp Image 2024-09-18 at 19.09.18_142a0412.jpg"  alt="Poster 4 " width="300px" height="300px" class="image4">
+    </div>
+    <div class="Box">
+
+    </div>
+</body>
+</html>
